@@ -32,6 +32,9 @@
       "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}],
       "react-hooks/rules-of-hooks": "error",
       "react/jsx-one-expression-per-line": "off",
+      "react/jsx-props-no-spreading": [0, {
+        "custom": "ignore"
+      }],
       "no-use-before-define": "off",
       "@typescript-eslint/no-unused-vars": ["off"],
       "react-hooks/exhaustive-deps": "warn",
